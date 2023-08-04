@@ -24,7 +24,9 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: const PlacesListScreen(),
-      routes: {AppRoutes.PLACE_FORM: (ctx) => const PlaceFormScreen()},
+      routes: {
+        AppRoutes.PLACE_FORM: (ctx) => const PlaceFormScreen(),
+      },
     );
   }
 }
